@@ -25,14 +25,19 @@ const UpdateUser = () => {
  const update = (e) => {
 	e.preventDefault();
 	axios
-		.put(`http://localhost:8080/users/${id}`, { name, dob, nationality, voterId })
+		.put(`http://localhost:8080/users/${id}`, {
+			name,
+			dob,
+			nationality,
+			voterId,
+		})
 		.then((result) => {
 			console.log(result);
 			navigate("/");
 		})
 		.catch((err) => console.log(err));
  }
-console.log(dob)
+
 	return (
 		<div className="d-flex vh-100 bg-light justify-content-center align-items-center">
 			<div className="w-50 bg-white rounded p-3">

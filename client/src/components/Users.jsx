@@ -25,6 +25,7 @@ const Users = () => {
 	return (
 		<div className="d-flex vh-100 bg-light justify-content-center align-items-center">
 			<div className="w-100 bg-white rounded p-3">
+		<h3> Please don't delete the entry with name Mohd Aqib</h3>
 				<Link to="/create" className="btn btn-success">
 					Add +
 				</Link>

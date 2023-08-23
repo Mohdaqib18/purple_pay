@@ -12,7 +12,12 @@ const CreateUser = () => {
 	const submit = (e) => {
 		e.preventDefault();
 		axios
-			.post("http://localhost:8080/users", { name, dob, nationality, voterId })
+			.post("http://localhost:8080/users", {
+				name,
+				dob,
+				nationality,
+				voterId,
+			})
 			.then((result) => {
 				console.log(result);
 				navigate("/");
@@ -20,7 +25,7 @@ const CreateUser = () => {
 			.catch((err) => console.log(err));
 	};
 
-	console.log(dob);
+
 
 	return (
 		<div className="d-flex vh-100 bg-light justify-content-center align-items-center">
