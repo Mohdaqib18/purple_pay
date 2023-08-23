@@ -1,7 +1,7 @@
 # purple_pay
 
 # Note: 
-Please don't delete or update the entry with Name - Mohd Aqib, as I have used that to fetch details in MetaMask SNAP.
+Please don't delete or update the entry with Name - Mohd Aqib through the deployed link or the local host, as I have used that to fetch details in MetaMask SNAP.
 
 # Please visit the deployed link to have a look: 
 Deployed Link : 
